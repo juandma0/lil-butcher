@@ -5,7 +5,7 @@ try:
     import os
 except ModuleNotFoundError:
     # Open the batch that installs the missing extensions
-    open('../installMissingLibraries.bat')
+    open('installMissingLibraries.bat')
 
 
 def moveMouse():  # Opens the stickers menu
